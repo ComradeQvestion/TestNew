@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.wear.widget.BoxInsetLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_grey"
+    android:padding="@dimen/box_inset_layout_padding"
+    tools:context="com.example.testnew.MyProjects"
+    tools:deviceIds="wear">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/DodgerBlue"
+        android:padding="@dimen/inner_frame_layout_padding">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:text="Project ID"
+            android:textSize="20dp"
+            android:layout_marginStart="5dp"
+            android:id="@+id/textprojectid"
+            android:textColor="@color/color_preloader_end"
+            />
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_toEndOf="@+id/textprojectid"
+            android:text="Title"
+            android:id="@+id/texttitle"
+            android:textColor="@color/color_preloader_end"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="5dp"
+            android:layout_toEndOf="@+id/texttitle"
+            android:text="Description"
+            android:textColor="@color/color_preloader_end"
+            android:id="@+id/textdescription"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_toEndOf="@+id/textdescription"
+            android:id="@+id/textlookingfor"
+            android:text="Looking For"
+            android:textColor="@color/color_preloader_end"
+            android:textSize="20dp" />
+
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/textprojectid"
+            android:layout_alignParentStart="true"
+           android:layout_marginStart="5dp"
+            android:layout_marginTop="10dp"
+            android:text="1"
+            android:id="@+id/idcolumn"
+            android:textColor="@color/color_preloader_end"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/texttitle"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@+id/idcolumn"
+            android:id="@+id/titlename"
+            android:text="Name"
+            android:textColor="@color/color_preloader_end"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/textdescription"
+            android:layout_alignBaseline="@+id/idcolumn"
+            android:layout_marginStart="5dp"
+            android:text="Not for gay"
+            android:textColor="@color/color_preloader_end"
+            android:id="@+id/descriptionname"
+            android:layout_marginTop="11dp"
+            android:layout_marginEnd="-5dp"
+            android:layout_toEndOf="@+id/titlename" />
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/textlookingfor"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Gay"
+            android:textColor="@color/color_preloader_end"
+            android:layout_toEndOf="@+id/descriptionname" />
+
+    </RelativeLayout>
+
+
+</android.support.wear.widget.BoxInsetLayout>

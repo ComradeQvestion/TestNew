@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.testnew.ProfileActivity"
+    android:orientation="vertical"
+    android:id="@+id/container"
+    android:background="@color/DodgerBlue"
+    android:gravity="center_horizontal">
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:layout_marginRight="145dp"
+        android:src="@mipmap/newimg" />
+
+    <EditText
+        android:id="@+id/edittext_fullname"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginLeft="40dp"
+        android:paddingLeft="2dp"
+        android:background="#ffffff"
+        android:hint="Full Name"/>
+
+    <EditText
+        android:id="@+id/edittext_interrests"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#ffffff"
+        android:hint="List of Interrests"
+        android:inputType="textMultiLine"
+        android:maxLength="2000"
+        android:maxLines="4"
+        android:paddingLeft="2dp" />
+    <EditText
+        android:id="@+id/edittext_skills"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#ffffff"
+        android:hint="List of Skills"
+        android:inputType="textMultiLine"
+        android:maxLength="2000"
+        android:maxLines="4"
+        android:paddingLeft="2dp" />
+
+    <EditText
+        android:id="@+id/edittext_education"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginLeft="40dp"
+        android:paddingLeft="2dp"
+        android:background="#ffffff"
+        android:hint="Education"/>
+
+    <EditText
+        android:id="@+id/edittext_work"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginLeft="40dp"
+        android:paddingLeft="2dp"
+        android:background="#ffffff"
+        android:hint="Past Workplaces"/>
+
+    <EditText
+        android:id="@+id/edittext_involvement"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginLeft="40dp"
+        android:paddingLeft="2dp"
+        android:background="#ffffff"
+        android:hint="Projects involved in"/>
+
+    <EditText
+        android:id="@+id/edittext_socialmedia"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginLeft="40dp"
+        android:paddingLeft="2dp"
+        android:background="#ffffff"
+        android:hint="Social Media links"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/button_update"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="40dp"
+            android:background="#04ea00"
+            android:text="Update"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/button_cancel"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="40dp"
+            android:background="#04ea00"
+            android:textColor="#ffffff"
+            android:text="Cancel"/>
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>
